@@ -1,6 +1,9 @@
 spring:
   application:
     name: ms-transaction
+  sleuth:
+    sampler:
+      probability: 1.0
 server:
   port: 8090
 
